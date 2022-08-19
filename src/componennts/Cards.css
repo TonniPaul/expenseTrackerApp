@@ -1,5 +1,4 @@
 .card{
    border-radius: 10px;
    box-shadow: var(--expenseBoxShadow);
-   padding: 2rem;
 }
