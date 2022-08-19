@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import ExpenseItem from './componennts/ExpenseItem';
+import { expenses } from './componennts/expenses';
+import Cards from './componennts/Cards';
 
+
+const myProps = expenses.map(items =>{
+  return(
+    <ExpenseItem
+      key = {items.id}
+      {...items}
+    />
+  )
+});
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <h1 className='headertext'>
+          ExpenseItem
+        </h1>
+        <Cards className='expensediv'>
+          {myProps}
+        </Cards>
     </div>
   );
 }
