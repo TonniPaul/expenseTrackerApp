@@ -18,7 +18,7 @@
   font-size: 40px;
 }
 .expensediv{
-  padding: .2rem;
+  padding: 2rem;
   background: var(--lighterDark);
   width: max-content;
   margin:1rem auto;
