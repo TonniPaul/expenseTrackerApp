@@ -22,40 +22,39 @@
  }
  .dateData{
   display: grid;
+  width: 7.5rem;
+  height: 5.5rem;
   justify-content: center;
   align-items: center;
   text-align: center;
   margin: 0 1rem;
-  border-radius: 10px;
   border: 2px solid var(--background);
-  padding: .2rem 2rem;
+  padding: .2rem 2.5rem;
  }
  .month{
-  font-size: 30px;
+  font-size: 20px;
   color: var(--dark);
  }
  .day{
   font-size: 20px;
  }
  .year{
-  font-size: 25px;
+  font-size: 18px;
   color: var(--lighterDark);
- }
- .title--text{
-  font-size: 35px;
  }
  .expense-item__description {
   display: flex;
   justify-content: space-between;
-  padding: 0  2rem ;
-  width: 100%;
   align-items: center;
+  gap: 50px;
+  font-size: 15px;
+  padding: 0  2rem .5rem ;
+  width: 100%;
  }
  .expense-item__price{
   background-color: var(--lighterDark);
-  border: 2px solid var(--lighterDark);
+  border: 2px solid var(--background);
   box-shadow: var(--expenseBoxShadow);
-  border-radius: 13px;
   padding: .5rem 1rem;
  }
 
@@ -68,8 +67,11 @@
 }
 .dateData{
   display: flex;
+  width: 80%;
+  height: max-content;
   flex-direction: row;
   gap: 20px;
+  padding: .5rem 1rem;
   margin: 1rem auto 0;
   align-self: baseline;
   justify-content: center;

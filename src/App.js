@@ -1,6 +1,6 @@
-import ExpenseItem from './componennts/ExpenseItem';
-import { expenses } from './componennts/expenses';
-import Cards from './componennts/Cards';
+import ExpenseItem from './componennts/Expenses/ExpenseItem';
+import { expenses } from './componennts/Expenses/expenses';
+import Cards from './componennts/UI/Cards';
 
 
 const myProps = expenses.map(items =>{
