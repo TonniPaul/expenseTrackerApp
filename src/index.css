@@ -15,13 +15,16 @@
   color: var(--primaryBody);
   transition: all 2s ease-in-out;
 }
-.headertext{
-  text-align: center;
-  font-size: 40px;
-}
+
 .expensediv{
   padding: 2rem;
   background-image: radial-gradient(var(--primaryBody), var(--background), var(--primaryBody));
   width: max-content;
   margin:1rem auto;
+}
+@media(max-width:500px){
+  .expensediv{
+    margin: 0;
+    border-radius: 0!important;
+  }
 }
