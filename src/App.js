@@ -1,6 +1,7 @@
 import ExpenseItem from './componennts/Expenses/ExpenseItem';
 import { expenses } from './componennts/Expenses/expenses';
 import Cards from './componennts/UI/Cards';
+import NewExpense  from './componennts/NewExpense/NewExpense';
 
 
 const myProps = expenses.map(items =>{
@@ -14,11 +15,9 @@ const myProps = expenses.map(items =>{
 function App() {
 
   return (
-    <div className="App">
-        <h1 className='headertext'>
-          ExpenseItem
-        </h1>
+    <div className="App">   
         <Cards className='expensediv'>
+        <NewExpense/>
           {myProps}
         </Cards>
     </div>

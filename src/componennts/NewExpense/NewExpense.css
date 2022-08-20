@@ -1,0 +1,10 @@
+:root{
+   --background: #c4c7ce;
+   --primaryBody: #6173AC;
+   --dark:#263238;
+   --lighterDark: #37474F;
+   --expenseBoxShadow: 0 2px 2px #37474F;
+ }
+ .forms{
+   transition: all 2s ease-in-out;
+ }
