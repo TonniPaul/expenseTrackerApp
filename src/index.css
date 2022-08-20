@@ -19,7 +19,7 @@
 }
 .expensediv{
   padding: 2rem;
-  background: var(--lighterDark);
+  background-image: linear-gradient(to bottom right,var(--primaryBody), var(--background), var(--primaryBody));
   width: max-content;
   margin:1rem auto;
 }
