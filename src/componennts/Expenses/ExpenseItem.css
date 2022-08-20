@@ -60,7 +60,6 @@
 
  @media(max-width: 900px){
 .expense-item{
-  width: 90%;
   gap: 1rem;
   flex-direction: column;
   padding: .3rem .7rem;
