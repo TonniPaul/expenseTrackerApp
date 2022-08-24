@@ -14,13 +14,12 @@ const myProps = expenses.map(items =>{
 });
 function App() {
 
-  return (
-    <div className="App">   
+  return ( 
         <Cards className='expensediv'>
-        <NewExpense/>
+          <NewExpense/>
           {myProps}
         </Cards>
-    </div>
+
   );
 }
 
