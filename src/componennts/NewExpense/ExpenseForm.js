@@ -65,7 +65,6 @@ const ExpenseForm = () => {
          <div className='expense__buttond'>
             <button type='submit' className='btn'>Add Expense</button>
          </div>
-         
       </form>
   )
 }
